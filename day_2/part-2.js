@@ -31,7 +31,8 @@ lines.forEach((line) => {
   const start = parseInt(range[0], 10);
   const end = parseInt(range[1], 10);
   for (let i = start; i <= end; i++) {
-    if (validateId(i)) {
+    const isValid = validateId(i);
+    if (isValid) {
       answer.push(i);
     }
   }
