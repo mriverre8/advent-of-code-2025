@@ -1,6 +1,8 @@
 # Advent of Code 2025 🎄
 
-This repository contains my solutions for **Advent of Code 2025**, written in **JavaScript** and executed using **Node.js**.
+This repository contains my solutions for [**Advent of Code 2025**](https://adventofcode.com/)
+
+I made this mainly for learning, practicing, and getting better at solving problems.
 
 ---
 
@@ -9,19 +11,19 @@ This repository contains my solutions for **Advent of Code 2025**, written in **
 Each Advent of Code day has its own folder following this pattern:
 
 ```
-day_X/
+day_n/
   ├─ part-1.js
   ├─ part-2.js
 ```
 
-* `X` represents the day number (e.g., `day_1`, `day_2`, etc.).
-* Each part is implemented in its own file.
+- `n` represents the day number (e.g., `day_1`, `day_2`, etc.).
+- Each part is implemented in its own file.
 
 ---
 
 ## ▶️ How to Run the Solutions
 
-Make sure you have **Node.js** installed.
+Make sure you have [**Node.js**](https://nodejs.org/en) installed.
 
 1. Navigate into the desired day folder:
 
@@ -36,33 +38,9 @@ node part-1.js
 node part-2.js
 ```
 
-Each file is meant to be executed directly using Node.
-
----
-
 ## ✅ Progress
 
-* Completed up to **Day 7 – Part 1**
-* Received **a little help** with:
+- Completed up to **Day 7 – Part 1**
 
-  * **Day 5 – Part 2**
-  * **Day 6 – Part 2**
-
-All other completed parts were solved independently.
-
----
-
-## 🛠️ Tech Stack
-
-* **Language:** JavaScript
-* **Runtime:** Node.js
-
----
-
-## 🎯 Notes
-
-This repository is primarily for learning, practice, and tracking progress throughout Advent of Code 2025. Solutions may not always be fully optimized but focus on correctness and clarity.
-
----
-
-Happy coding! 🚀
+> _Help for [**Day 5 – Part 2**](/day_5/part-2-help.png)_  
+> _Help for [**Day 6 – Part 2**](/day_6/part-2-help.png)_
